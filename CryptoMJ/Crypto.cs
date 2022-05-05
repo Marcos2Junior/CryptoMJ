@@ -8,7 +8,7 @@ namespace CryptoMJ
     public class Crypto
     {
         public static Encoding Encoding = Encoding.UTF8;
-       
+
         public static IEnumerable<int> Indexes(string chave)
         {
             return from index in chave select Convert.ToInt32(index);
