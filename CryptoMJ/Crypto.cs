@@ -5,35 +5,25 @@ using System.Text;
 
 namespace CryptoMJ
 {
-    public class Crypto
+    public class Crypto : ICrypto
     {
-        public static Encoding Encoding = Encoding.UTF8;
+        private readonly Encoding _encoding;
 
-        public static IEnumerable<int> Indexes(string chave)
+        private readonly string[] _listBase64;
+        public Crypto(string[] listBase64, Encoding encoding)
         {
-            return from index in chave select Convert.ToInt32(index);
+            _encoding = encoding;
+            _listBase64 = listBase64;
         }
 
-        public static string Encrypt(string text, string chave)
+        public string Decrypt(string textToDecrypt, string key)
         {
-            return string.Empty;
+            throw new NotImplementedException();
         }
 
-        public static string Decrypt(string textEncrypt, string chave)
+        public string Encrypt(string textToEncrypt, string key)
         {
-            return String.Empty;
-        }
-
-        static List<string> Lists()
-        {
-            string caracteresbase64 = "E2oy5sxb1agn+TMqi4Lplc8tB76YmGRWFwDzjZrXK9AhQd=UJ/CI3VNOuHfP0evSk";
-            List<string> list = new List<string>();
-            for (int i = 0; i < 500; i++)
-            {
-
-            }
-
-            return list;
+            throw new NotImplementedException();
         }
     }
 }
