@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMJ", "CryptoMJ\CryptoMJ.csproj", "{FA692864-27ED-44CF-8342-6B9F07F1215D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMJ.Console", "CryptoMJ.Console\CryptoMJ.Console.csproj", "{A0E3A459-9C4C-46B7-A328-BEFA33A14FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMJ.Console", "CryptoMJ.Console\CryptoMJ.Console.csproj", "{A0E3A459-9C4C-46B7-A328-BEFA33A14FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMJ.ConsoleDI", "CryptoMJ.ConsoleDI\CryptoMJ.ConsoleDI.csproj", "{896602C6-3CD3-40CA-98BC-EECA481B5F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A0E3A459-9C4C-46B7-A328-BEFA33A14FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E3A459-9C4C-46B7-A328-BEFA33A14FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E3A459-9C4C-46B7-A328-BEFA33A14FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896602C6-3CD3-40CA-98BC-EECA481B5F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896602C6-3CD3-40CA-98BC-EECA481B5F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896602C6-3CD3-40CA-98BC-EECA481B5F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896602C6-3CD3-40CA-98BC-EECA481B5F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
