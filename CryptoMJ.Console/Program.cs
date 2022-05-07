@@ -2,7 +2,6 @@
 
 string key = "key";
 string textToEncrypt = "Marcos Antonio dos Santos Junior";
-
 ICrypto crypto = new CryptoBuilder().Build();
 string encryptedText = crypto.Encrypt(textToEncrypt, key);
 string decryptedText = crypto.Decrypt(encryptedText, key);
