@@ -1,4 +1,5 @@
 ﻿using CryptoMJ;
+using CryptoMJ.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 
 new ServiceCollection()

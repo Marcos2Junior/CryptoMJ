@@ -1,12 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<IsPackable>true</IsPackable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Marcos Junior</Authors>
+		<PackageTags>asp.net core;cryptography</PackageTags>
+		<PackageProjectUrl>https://github.com/Marcos2Junior/CryptoMJ</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Marcos2Junior/CryptoMJ</RepositoryUrl>
+		<Description>
+			Um pacote de criptografia sem depêndencia de System.Security.Cryptography
+			Leia o README para mais informações de como usar
+		</Description>
+		<PackageReleaseNotes>
+			[1.1.0]: Permite adicionar chave padrao de criptografia na classe de builder
+			[1.0.0]: Primeiro envio
+		</PackageReleaseNotes>
+		<Version>1.1.0</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+	</ItemGroup>
 
 </Project>

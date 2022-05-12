@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CryptoMJ
+namespace CryptoMJ.Methods
 {
     public class ListBase64Factory
     {

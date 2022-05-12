@@ -1,5 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-namespace CryptoMJ
+﻿using CryptoMJ.Methods;
+using Microsoft.Extensions.DependencyInjection;
+namespace CryptoMJ.Extensions
 {
     public static class ServiceCollectionExtensions
     {

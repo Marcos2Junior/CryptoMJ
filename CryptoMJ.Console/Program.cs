@@ -1,4 +1,5 @@
 ﻿using CryptoMJ;
+using CryptoMJ.Methods;
 
 string key = "key";
 string textToEncrypt = "Marcos Antonio dos Santos Junior";
